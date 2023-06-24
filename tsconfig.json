@@ -1,0 +1,14 @@
+{
+    "extends": "@augu/tsconfig",
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "removeComments": true,
+        "types": ["node"],
+        "baseUrl": ".",
+        "noEmit": true,
+        "target": "ESNext",
+        "module": "ESNext"
+    },
+    "exclude": ["node_modules"],
+    "include": ["**/*.ts"]
+}

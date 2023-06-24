@@ -1,0 +1,6 @@
+{
+    "extends": ["prettier", "@augu/eslint-config/ts.js"],
+    "parserOptions": {
+        "project": "./scripts/tsconfig.json"
+    }
+}
